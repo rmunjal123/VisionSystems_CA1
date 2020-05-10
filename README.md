@@ -16,3 +16,6 @@ Windows, linux:
 Using Pre-trained model for inference: 
 
 Please downlaod the pre-trained model from https://nusu-my.sharepoint.com/:u:/g/personal/e0385030_u_nus_edu/EcNzOTG_nFdCnzMFjxfP4-MBskJRIJsqj0B91Mzo2pEZVg?email=tanjenhong%40nus.edu.sg&e=jIy3Tn and put the correct path in the inference code to test the model.
+
+Process to run the code: 
+Please refer to steps in setup.txt 
