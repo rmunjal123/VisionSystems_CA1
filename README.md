@@ -12,3 +12,7 @@ Windows, linux:
 (Assume Nvidia Cuda 10.2 is installed according to your Nvidia driver version (see https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility), and cudnn 7.6.5 installed, get cudnn from https://developer.nvidia.com/cuda-downloads)
 
  2. conda activate y2-s1-ca1
+
+Using Pre-trained model for inference: 
+
+Please downlaod the pre-trained model from https://nusu-my.sharepoint.com/:u:/g/personal/e0385030_u_nus_edu/EcNzOTG_nFdCnzMFjxfP4-MBskJRIJsqj0B91Mzo2pEZVg?email=tanjenhong%40nus.edu.sg&e=jIy3Tn and put the correct path in the inference code to test the model.
