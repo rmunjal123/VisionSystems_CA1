@@ -1,7 +1,14 @@
 # VisionSystems_CA1
-CA-1
-# Use new datasets else if want to use the existing dataset, the work should be able to publish
-# Build a progressive model rather than using a final model in first go..
-# Transfer learning in needed. Use a trained model binary and train further
-# Segmentation of the object is the key to find
-# 200 instances in dataset is for training only, for testing, we should use more
+In this project, we are doing the simantic segmentation of the surface defects.There are 3 main classes of defects which are indicated by the filename of the photos:
+•	Blowhole
+•	Cavity 
+•	Crack
+
+The model developed is using MaskRCNN state of the art method of instance segmentation. Please create the python environment as stated below to run the code in local machine.
+
+Windows, linux:
+1. conda create -n y2-s1-ca1 python=3.6 numpy=1.18.1 opencv=3.4.2 matplotlib=3.1.3 tensorflow=1.14.0 tensorflow-gpu=1.14.0 keras=2.3.1 keras-gpu=2.3.1 cudatoolkit=10.0 cudnn=7.6.5 scipy=1.4.1 scikit-learn=0.22.1 pillow=6.1.0 ipython=7.12.0 spyder=4.0.1 imgaug cython pathlib yaml pandas pydot graphviz seaborn
+
+(Assume Nvidia Cuda 10.2 is installed according to your Nvidia driver version (see https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility), and cudnn 7.6.5 installed, get cudnn from https://developer.nvidia.com/cuda-downloads)
+
+ 2. conda activate y2-s1-ca1
