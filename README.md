@@ -1,5 +1,5 @@
 # VisionSystems_CA1
-In this project, we are doing the simantic segmentation of the surface defects.There are 3 main classes of defects which are indicated by the filename of the photos:
+In this project, we are doing the semantic segmentation of the surface defects.There are 3 main classes of defects which are indicated by the filename of the photos:
 •	Blowhole
 •	Cavity 
 •	Crack
